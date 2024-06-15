@@ -1,0 +1,36 @@
+/* NoteGrid.css */
+
+.NoteGrid {
+    padding: 40px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  
+.pagination {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .pagination ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: navy;
+  }
+  
+  .pagination button.active {
+    font-weight: bold;
+    color: black;
+  }

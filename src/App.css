@@ -1,0 +1,167 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sofia+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: navy;
+}
+
+.logo {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    padding: 10px;
+    margin: 1rem auto;
+}
+
+.heading {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+    font-family: sans-serif;
+}
+
+.input {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 4px;
+    color: rgb(72, 66, 66);
+}
+
+.primary-btn {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+.primary-btn:hover {
+    background-color: rgb(36, 211, 27);
+}
+
+hr {
+    margin: 10px auto;
+}
+
+.notes-heading {
+    font-size: 1.4rem;
+}
+
+.delete-btn {
+    border: none;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: violet;
+}
+
+.output-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.delete-btn:hover {
+    background-color: #000;
+}
+
+.noteCard {
+    width: 250px;
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.card-text {
+    margin: 10px 0;
+    color: navy;
+}
+
+.note-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.note {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.note h2, .note h4, .note p {
+    margin: 8px 0;
+}
+
+.note button {
+    margin-right: 8px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.page-link:hover {
+    background-color: #f0f0f0;
+}
+
+.nav {
+    padding: 2rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: navy;
+}
+
+.logo {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
